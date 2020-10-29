@@ -1,4 +1,9 @@
-# your code here
-user_input = input()
-# your code here
-print(most_frequent_character)
+a = input()
+max = 0
+result = ''
+for i in a:
+  count = a.count(i)
+  if count > max:
+    max = count
+    result = i
+print(result)
