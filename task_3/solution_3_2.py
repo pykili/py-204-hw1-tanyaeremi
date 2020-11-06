@@ -1,6 +1,6 @@
-# your code here
+n = ''
 for smth in 'a'*10:
-    # your code here
-    user_input = input()
-# your code here
-print(alphabet)
+  user_input = input('enter string: ')
+  for i in user_input:
+     if i not in n and i!='': n+=i
+print(n)
